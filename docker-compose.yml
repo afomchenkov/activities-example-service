@@ -1,0 +1,13 @@
+version: '3'
+services:
+  activities-service-app:
+    build:
+      context: activities-be
+    ports:
+      - "8080:8080"
+
+  activities-client-app:
+    build:
+      context: activities-fe
+    ports:
+      - "3000:3000"
