@@ -71,3 +71,5 @@ this way we remove thightly coupled Repository creation and can inject any Repos
 - Add the internalisation on the FE so that the specific translation is rendered based on the translation key
 - Add exceptions handling/monitoring tools on the FE side (Sentry, DataDog, etc.)
 - If required, the application can be build with SSR so that the content is delivered faster for the first contentful paint
+
+  ![Example UI](ui-exmple.png)
