@@ -1,6 +1,6 @@
 # Example application
 
-The decision right now is to use the GraphQL API so that the client application could decide which data is needed and also
+The service is using the GraphQL API so that the client application could decide which data is needed and also
 add the option to request the offset, number of items per page, search query by the activity title.
 With such approach it is fairly easy to request the data from the client application without the need to load huge chunks of
 data and do the filtering on the FE part.
@@ -9,7 +9,6 @@ data and do the filtering on the FE part.
 - To start the app, go into the root folder and: `docker compose up --build`
 - Start instructions per service are located in the corresponding folder
 - TypeScript language is used both on the BE/FE
-- FE/BE has its own git repo files
 
 
 
